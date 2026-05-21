@@ -1,128 +1,163 @@
 <!DOCTYPE html>
 <html lang="fi">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Janne Suurkoivu | Portfolio</title>
-        <style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: #f8fafc;
-  }
 
-   nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 8%;
-  }
-  .logo {
-    font-weight: bold;
-    font-size: 20px;
-  }
-  nav ul {
-    display: flex;
-    gap: 24px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-   nav a {
-    color: #f8fafc;
-    text-decoration: none;
-  }
-   header {
-    min-height: 80vh;
-    padding: 80px 8%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-   header h1 {
-    max-width: 800px;
-    font-size: 56px;
-    line-height: 1.1;
-    margin-bottom: 24px;
-  }
-   header p {
-    max-width: 650px;
-    font-size: 20px;
-    line-height: 1.6;
-    color: #cbd5e1;
-  }
-   .hero-buttons {
-    display: flex;
-    gap: 16px;
-    margin-top: 32px;
-  }
-  .hero-buttons a {
-    padding: 14px 22px;
-    border-radius: 10px;
-    background: #38bdf8;
-    color: #020617;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  .hero-buttons a:last-child {
-    background: transparent;
-    color: #f8fafc;
-    border: 1px solid #38bdf8;
-  }
-  
-  @media (max-width: 768px) {
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  nav {
-    flex-direction: column;
-    gap: 20px;
-  }
+  <title>Janne Suurkoivu | Portfolio</title>
 
-  nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  <style>
 
-  header {
-    padding-top: 40px;
-  }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+    }
 
-  header h1 {
-    font-size: 38px;
-  }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 8%;
+    }
 
-  header p {
-    font-size: 18px;
-  }
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+    }
 
-  .hero-buttons {
-    flex-direction: column;
-    width: 100%;
-  }
-        </style>
+    nav ul {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: #f8fafc;
+      text-decoration: none;
+    }
+
+    header {
+      min-height: 80vh;
+      padding: 80px 8%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    header h1 {
+      max-width: 800px;
+      font-size: 56px;
+      line-height: 1.1;
+      margin-bottom: 24px;
+    }
+
+    header p {
+      max-width: 650px;
+      font-size: 20px;
+      line-height: 1.6;
+      color: #cbd5e1;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 16px;
+      margin-top: 32px;
+    }
+
+    .hero-buttons a {
+      padding: 14px 22px;
+      border-radius: 10px;
+      background: #38bdf8;
+      color: #020617;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .hero-buttons a:last-child {
+      background: transparent;
+      color: #f8fafc;
+      border: 1px solid #38bdf8;
+    }
+
+    @media (max-width: 768px) {
+
+      nav {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      header {
+        padding-top: 40px;
+      }
+
+      header h1 {
+        font-size: 38px;
+      }
+
+      header p {
+        font-size: 18px;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .hero-buttons a {
+        text-align: center;
+      }
+    }
+
+  </style>
+
 </head>
-    <body>
-        <nav>
-            <div class="logo">Janne Suurkoivu</div>
-            <ul>
-                <li><a href="#etusivu">Etusivu</a></li>
-                <li><a href="#palvelut">Palvelut</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#demo">Demo</a></li>
-                <li><a href="#yhteys">Yhteystiedot</a></li>
-            </ul>
-        </nav>
-        <<header id="etusivu">
-            <h1>Teknisiä prototyyppejä, 3D-tulostusta ja raporttiohjelmia</h1>
-            <p>
-                Teen käytännönläheisiä ratkaisuja, joissa yhdistyvät 3D-mallinnus,
-                3D-tulostus, mittausdata ja ohjelmistot.
-            </p>
-            <div class="hero-buttons">
-                <a href="#portfolio">Katso portfolio</a>
-                <a href="#yhteys">Ota yhteyttä</a>
-            </div>
-</header>
+
+<body>
+
+  <nav>
+
+    <div class="logo">
+      Janne Suurkoivu
+    </div>
+
+    <ul>
+      <li><a href="#etusivu">Etusivu</a></li>
+      <li><a href="#palvelut">Palvelut</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="#yhteys">Yhteystiedot</a></li>
+    </ul>
+
+  </nav>
+
+  <header id="etusivu">
+
+    <h1>
+      Teknisiä prototyyppejä, 3D-tulostusta ja raporttiohjelmia
+    </h1>
+
+    <p>
+      Teen käytännönläheisiä ratkaisuja, joissa yhdistyvät
+      3D-mallinnus, 3D-tulostus, mittausdata ja ohjelmistot.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#portfolio">Katso portfolio</a>
+      <a href="#yhteys">Ota yhteyttä</a>
+    </div>
+
+  </header>
 
 </body>
+
 </html>

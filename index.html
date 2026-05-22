@@ -6,119 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Janne Suurkoivu | Portfolio</title>
-
-  <style>
-
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #f8fafc;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 24px 8%;
-    }
-
-    .logo {
-      font-weight: bold;
-      font-size: 20px;
-    }
-
-    nav ul {
-      display: flex;
-      gap: 24px;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav a {
-      color: #f8fafc;
-      text-decoration: none;
-    }
-
-    header {
-      min-height: 80vh;
-      padding: 80px 8%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    header h1 {
-      max-width: 800px;
-      font-size: 56px;
-      line-height: 1.1;
-      margin-bottom: 24px;
-    }
-
-    header p {
-      max-width: 650px;
-      font-size: 20px;
-      line-height: 1.6;
-      color: #cbd5e1;
-    }
-
-    .hero-buttons {
-      display: flex;
-      gap: 16px;
-      margin-top: 32px;
-    }
-
-    .hero-buttons a {
-      padding: 14px 22px;
-      border-radius: 10px;
-      background: #38bdf8;
-      color: #020617;
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-    .hero-buttons a:last-child {
-      background: transparent;
-      color: #f8fafc;
-      border: 1px solid #38bdf8;
-    }
-
-    @media (max-width: 768px) {
-
-      nav {
-        flex-direction: column;
-        gap: 20px;
-      }
-
-      nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      header {
-        padding-top: 40px;
-      }
-
-      header h1 {
-        font-size: 38px;
-      }
-
-      header p {
-        font-size: 18px;
-      }
-
-      .hero-buttons {
-        flex-direction: column;
-        width: 100%;
-      }
-
-      .hero-buttons a {
-        text-align: center;
-      }
-    }
-
-  </style>
+  <link rel="stylesheet" href="style.css">
+  
 
 </head>
 
@@ -157,6 +46,99 @@
     </div>
 
   </header>
+  <section id="palvelut">
+  <h2>Palvelut</h2>
+
+  <div class="service-grid">
+
+    <div class="service-card">
+      <h3>3D-tulostus ja prototyypit</h3>
+      <p>
+        Suunnittelen ja tulostan käytännön osia, prototyyppejä,
+        varaosia ja pieniä teknisiä ratkaisuja asiakkaan tarpeen mukaan.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <h3>Raportti- ja visualisointiohjelmat</h3>
+      <p>
+        Teen selkeitä raportteja, mittausdatan visualisointeja ja
+        pieniä ohjelmia, jotka auttavat ymmärtämään tietoa paremmin.
+      </p>
+    </div>
+
+  </div>
+</section>
+<section id="portfolio">
+
+  <h2>Portfolio</h2>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-card">
+      <img src="images/kaivuri.jpg" alt="Kaivuri appi">
+      <h3>Kaivinkoneen visualisointisovellus</h3>
+      <p>
+        Reaaliaikainen visualisointi kaivinkoneen kauhan liikkeestä
+        ja syvyydestä.
+      </p>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="images/3dtuloste.jpg" alt="3D tuloste">
+      <h3>3D-tulostetut osat</h3>
+      <p>
+        Varaosia, prototyyppejä ja käytännön teknisiä ratkaisuja
+        3D-tulostuksella.
+      </p>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="images/raportti.jpg" alt="Raportti ohjelma">
+      <h3>Raportti- ja mittausohjelmat</h3>
+      <p>
+        Mittausdatan visualisointi ja raportointi selkeään muotoon.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+<section id="demo">
+
+  <h2>Demo ja visualisointi</h2>
+
+  <div class="demo-grid">
+
+    <div class="demo-card">
+      <h3>Projektivideo</h3>
+
+      <video controls>
+        <source src="videos/demo.mp4" type="video/mp4">
+      </video>
+
+      <p>
+        Videoesittely projekteistani ja visualisointisovelluksista.
+      </p>
+    </div>
+
+    <div class="demo-card">
+      <h3>3D-malli</h3>
+
+      <div class="model-viewer">
+        3D-mallin pyörittäjä tulee tähän
+      </div>
+
+      <p>
+        Interaktiivinen 3D-mallin katselu näyttää
+        mallinnus- ja visualisointitasoani.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+ 
 
 </body>
 
